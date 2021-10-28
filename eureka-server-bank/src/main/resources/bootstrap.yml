@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka-server
+  cloud:
+    config:
+      uri: http://localhost:8762
+      #http://localhost:8762-> dev
+      #http://config-server:8762-> docker
+      #http://config-server-bank.azurewebsites.net -> pdr
